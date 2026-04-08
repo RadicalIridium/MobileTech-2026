@@ -22,6 +22,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplicationPC">
         <activity
+            android:name=".MultimediaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimationActivity"
+            android:exported="false" />
+        <activity
             android:name=".SQLiteActivity"
             android:exported="false" />
         <activity
